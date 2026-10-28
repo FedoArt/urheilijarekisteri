@@ -1,0 +1,24 @@
+
+# Node.js riippuvuudet
+node_modules/
+
+# Salaiset ympäristömuuttujat
+.env
+.env.*
+!.env.example
+
+# Tuotantokoonti
+dist/
+build/
+
+# Lokitiedostot
+*.log
+npm-debug.log*
+
+# Käyttöjärjestelmän tiedostot
+.DS_Store
+Thumbs.db
+
+# Editorin paikalliset asetukset
+.vscode/
+.idea/
